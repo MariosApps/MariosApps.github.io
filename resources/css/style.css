@@ -41,7 +41,7 @@ section {
 
 /*----------------HEADINGS---------------*/
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -70,8 +70,9 @@ h3 {
 
 h4 {
     margin-bottom: 15px;
-    color: #fff;
+    color: #000;
     font-weight: 400;
+    text-transform: uppercase;
 }
 
 h2:after {
@@ -298,37 +299,42 @@ h1 span {
 
 .section-projects { background-color: #f7f7f7; }
 
-.project-box-photography {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/MS.JPG);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/MS.JPG);
-}
-
-.project-box-rgb {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/RGB.JPG);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/RGB.JPG);
-}
-
-.project-box-shapes {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/Sounds_shapes.JPG);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/Sounds_shapes.JPG);
-}
-
-.project-box-todo {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/Todo.JPG);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/Todo.JPG);
-}
-
 .project {
-    background-size: cover;
-    background-position: fixed;
-    top: 0;
-    left: 0;
-    height: 40vh;
+    position: relative;
+    width: 100%;
+}
+
+.project-image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .portfolio {
-    padding: 50% 0;
+    -webkit-transition: .5s ease;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
     text-align: center;
+}
+
+.project:hover .project-image { opacity: 0.3; }
+
+.project:hover .portfolio { opacity: 1; }
+
+.portfolio .btn { 
+    text-transform: uppercase;
+    font-size: 70%;
 }
 
 

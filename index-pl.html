@@ -91,7 +91,7 @@
        <div class="row">
           <div class="col span-1-of-2 box">
                <div class="project">
-                <img class="project-image" src="resources/img/ms.jpg" alt="RGB Guessing Game">
+                <img class="project-image" src="resources/img/MS.JPG" alt="Prywatne portfolio fotograficzne">
                    <div class="portfolio">
                         <h4>Prywatne portfolio fotograficzne</h4>
                         <a class="btn btn-full" href="http://mariuszstanosz.com/" target="_blank">Www</a>
@@ -112,7 +112,7 @@
         <div class="row">
               <div class="col span-1-of-2 box">
                    <div class="project">
-                    <img class="project-image" src="resources/img/Sounds_shapes.JPG" alt="RGB Guessing Game">
+                    <img class="project-image" src="resources/img/Sounds_shapes.JPG" alt="Shapes'n'Sounds">
                        <div class="portfolio">
                             <h4>Shapes'n'Sounds</h4>
                             <a class="btn btn-full" href="https://pampuchskrytozerca.github.io/Shapes-n-Sounds/" target="_blank">Www</a>
@@ -122,7 +122,7 @@
                 </div>
                 <div class="col span-1-of-2 box">
                    <div class="project">
-                    <img class="project-image" src="resources/img/Todo.JPG" alt="RGB Guessing Game">
+                    <img class="project-image" src="resources/img/Todo.JPG" alt="Todo List">
                        <div class="portfolio">
                             <h4>Todo List</h4>
                             <a class="btn btn-full" href="https://pampuchskrytozerca.github.io/Todo-List/" target="_blank">Www</a>
@@ -138,8 +138,8 @@
     <section id="contact">
             <div class="row">
                 <h2>I'm happy to hear from you</h2>
-            </div>
-            <form method="post" action="mail-pl.php" class="contact-form">
+            </div>         
+            <form action="https://formspree.io/stanosz.mariusz@gmail.com" method="POST" class="contact-form">
                 <div class="row">
                  <div class="col span-1-of-3">
                      <label for="name">Imię</label>
@@ -153,7 +153,7 @@
                      <label for="email">Email</label>
                  </div>
                  <div class="col span-2-of-3">
-                     <input type="email" name="email" id="email" placeholder="Twój adres email" required>
+                     <input type="email" name="_replyto" id="email" placeholder="Twój adres email" required>
                  </div>
               </div>
               <div class="row">
@@ -169,7 +169,10 @@
                      <label>&nbsp;</label>
                  </div>
                  <div class="col span-2-of-3">
-                     <input type="submit" value="Send it!">
+                     <input type="submit" value="Wyślij!">
+                 </div>
+                 <div>
+                     <input type="hidden" name="_next" value="https://pampuchskrytozerca.github.io/index-pl.html" />
                  </div>
               </div>
           </form>

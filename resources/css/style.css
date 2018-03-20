@@ -30,13 +30,9 @@ body {
     margin: 0 auto;
 }
 
-section {
-    padding: 80px 0;
-}
+section { padding: 80px 0; }
 
-.box {
-    padding: 1%;
-}
+.box { padding: 1%; }
 
 
 /*----------------HEADINGS---------------*/
@@ -177,9 +173,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-h1 span {
-    font-size: 50%;
-}
+h1 span { font-size: 50%; }
 
 .logo {
     height: 50px;
@@ -245,9 +239,7 @@ h1 span {
     color: #fff;
 }
 
-.separator:before { 
-    content: "|";
-}
+.separator:before { content: "|"; }
 
 
 /* Sticky nav */
@@ -273,9 +265,7 @@ h1 span {
 .sticky .logo { display: none; }
 .sticky .logo-black { display: block; }
 
-.sticky .separator { 
-    color: #555;
-}
+.sticky .separator { color: #555; }
 
 /*----------------------------------------*/
 /*About*/
@@ -398,13 +388,9 @@ input[type=submit] { cursor: pointer; }
     letter-spacing: 1px;
 }
 
-.fa-envelope {
-    margin-right: 10px;
-}
+.fa-envelope { margin-right: 10px; }
 
-.fa-phone {
-    margin-right: 10px;
-}
+.fa-phone { margin-right: 10px; }
 
 
 /*----------------------------------------*/
@@ -486,9 +472,7 @@ footer .row { max-width: 1400px; }
     animation-duration: 1s;
 }
 
-#js-wp-1.animated { 
-    opacity: 1; 
-}
+#js-wp-1.animated { opacity: 1; }
 
 
 

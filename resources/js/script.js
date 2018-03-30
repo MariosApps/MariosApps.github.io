@@ -1,3 +1,6 @@
+$(document).ready(function() {
+    
+
     //sticky nav
     $(".js-section-about").waypoint(function(direction) {
        if(direction === "down") {
@@ -32,6 +35,9 @@
     });
     
     
+    
+
+
     //animation on scroll
     $('#js-wp-1').waypoint(function() {
         $('#js-wp-1').addClass('animated fadeInDown');
@@ -90,7 +96,7 @@
 
         });
 
-
+});
 
 
 

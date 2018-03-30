@@ -1,4 +1,6 @@
 
+
+
 /*----------------------------------------*/
 /*BASIC SETUP*/
 /*----------------------------------------*/
@@ -8,6 +10,28 @@
     padding: 0;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    top: 100px; 
+    }
+  100% { 
+    top: 50%;
+    opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeDown {
+  0% {
+    opacity: 0;
+    top: 100px;
+    }
+  100% { 
+    top: 50%;
+    opacity: 1;
+    }
 }
 
 html,
@@ -113,7 +137,7 @@ input[type=submit] {
 .btn-full:link,
 .btn-full:visited, 
 input[type=submit] {
-    border: 1px solid #04a4fa;
+    border: 2px solid #04a4fa;
     background-color: #04a4fa;
     color: #fff;
     margin: 0 10px;
@@ -121,7 +145,7 @@ input[type=submit] {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-    border: 1px solid #04a4fa;
+    border: 2px solid #04a4fa;
     color: #04a4fa;
 }
 
@@ -136,12 +160,12 @@ input[type=submit]:active {
 .btn-full:active,
 input[type=submit]:hover,
 input[type=submit]:active {
-    border: 1px solid #038ed9;
+    border: 2px solid #038ed9;
 }
 
 .btn-ghost:hover,
 .btn-ghost:active {
-    border: 1px solid #038ed9;
+    border: 2px solid #038ed9;
     color: #fff;
 }
 
@@ -163,17 +187,23 @@ header {
     height: 100vh;
 }
 
+
 .text-box {
     position: absolute;
-    text-align: center;
-    width: 1140px;
     top: 50%;
     left: 50%;
+    text-align: center;
+    width: 1140px;
+    height: auto;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    -webkit-animation: mymove 2s ease-out;
+    animation: fadeDown 2s ease-out;
 }
 
-h1 span { font-size: 50%; }
+.regards { 
+    font-size: 50%; 
+}
 
 .logo {
     height: 50px;
@@ -473,8 +503,6 @@ footer .row { max-width: 1400px; }
 }
 
 #js-wp-1.animated { opacity: 1; }
-
-
 
 
 

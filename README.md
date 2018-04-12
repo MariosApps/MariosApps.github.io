@@ -1,1 +1,1 @@
-https://pampuchskrytozerca.github.io/
+<a href="https://pampuchskrytozerca.github.io/">DEMO</a>

@@ -90,9 +90,10 @@ h3 {
 
 h4 {
     margin-bottom: 15px;
-    color: #000;
+    color: #000000;
     font-weight: 400;
     text-transform: uppercase;
+    word-spacing: 10px;
 }
 
 h2:after {
@@ -354,11 +355,11 @@ header {
     text-align: center;
 }
 
-.project:hover .project-image { opacity: 0.3; }
+.project:hover .project-image { opacity: 0.15; }
 
 .project:hover .portfolio { opacity: 1; }
 
-.portfolio .btn { 
+.portfolio .btn {
     text-transform: uppercase;
     font-size: 70%;
     padding: 10px 20px;
@@ -478,7 +479,8 @@ footer .row { max-width: 1400px; }
 }
 
 .fa-github,
-.fa-linkedin {
+.fa-linkedin,
+.fa-link {
     -webkit-transition: color 0.5;
     transition: color 0.5;
 }
@@ -486,7 +488,9 @@ footer .row { max-width: 1400px; }
 .fa-linkedin:hover,
 .fa-linkedin:active,
 .fa-github:hover,
-.fa-github:active {
+.fa-github:active,
+.fa-link:hover,
+.fa-link:active {
     color: #007bb5;
 }
 

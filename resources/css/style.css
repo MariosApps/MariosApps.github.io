@@ -302,14 +302,14 @@ header {
 /*About*/
 /*----------------------------------------*/
 
-.section-about { background-color: #f7f7f7; }
-
 .section-about .long-copy { margin-bottom: 30px; }
 
 
 /*----------------------------------------*/
 /*Skills*/
 /*----------------------------------------*/
+
+.section-soft-skills { background-color: #f7f7f7; }
 
 .box { text-align: center; }
 
@@ -319,6 +319,11 @@ header {
     margin-bottom: 15px;
 }
 
+.soft-skills {
+    margin-bottom: 30px;
+    font-size: 100px;
+    color: #04a4fa;
+}
 
 /*----------------------------------------*/
 /*Projects*/
@@ -411,10 +416,11 @@ input[type=submit] { cursor: pointer; }
     color: #333;
 }
 
-.address {
-    font-size: 90%;
+.contact-details {
+    font-size: 120%;
     word-spacing: 2px;
     text-align: center;
+    margin-top: 50px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -491,7 +497,7 @@ footer .row { max-width: 1400px; }
 .fa-github:active,
 .fa-link:hover,
 .fa-link:active {
-    color: #007bb5;
+    color: #161d21;
 }
 
 
@@ -507,7 +513,6 @@ footer .row { max-width: 1400px; }
 }
 
 #js-wp-1.animated { opacity: 1; }
-
 
 
 

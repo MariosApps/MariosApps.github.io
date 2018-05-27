@@ -40,8 +40,12 @@ $(document).ready(function () {
 
 
     //animation on mouseover
-    $('.box').mouseover(function () {
-        $('h3', this).addClass('animated pulse')
+    $('.soft-skills-box').mouseover(function () {
+        $('.soft-skills', this).addClass('animated bounce');
+    });    
+    
+    $('.soft-skills-box').mouseleave(function () {
+        $('.soft-skills', this).removeClass('animated bounce');
     });
 
 

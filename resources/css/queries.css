@@ -42,6 +42,7 @@
     h1 { font-size: 190%; }
 }
 
+
     
     
 @media only screen and (max-width: 767px) {
@@ -126,6 +127,10 @@
         margin: 0 0 4% 0; 
     }
     
+    .soft-skills-box { 
+        width: 50%;
+    }
+    
     .project-box {
         width: 100%;
         height: auto;
@@ -157,15 +162,18 @@
     .portfolio .btn { font-size: 70%;}
     
 
+
 @media only screen and (max-width: 480px) {
+    
     section { padding: 25px 0; }
     .contact-form { width: 100%; } 
+    .contact-details { font-size: 90%; }
+    h3 { font-size: 100%; }
 } 
 
-/*
 @media only screen and (max-width: 320px) {
+    .contact-details { font-size: 80%; }
 }
-*/
 
 
 

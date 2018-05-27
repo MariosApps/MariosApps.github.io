@@ -319,11 +319,16 @@ header {
     margin-bottom: 15px;
 }
 
+.soft-skills-box { text-align: center; }
+
+
 .soft-skills {
     margin-bottom: 30px;
-    font-size: 100px;
+    font-size: 500%;
     color: #04a4fa;
 }
+
+
 
 /*----------------------------------------*/
 /*Projects*/

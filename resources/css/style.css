@@ -332,7 +332,7 @@ header {
 /*----------------------------------------*/
 
 .section-soft-skills {
-    background-color: #f7f7f7;
+    background-color: #fbfbfb;
 }
 
 .box {
@@ -364,7 +364,7 @@ header {
 /*----------------------------------------*/
 
 .section-projects {
-    background-color: #f7f7f7;
+    background-color: #fbfbfb;
 }
 
 .project {
@@ -428,7 +428,8 @@ header {
 }
 
 .qr-code-image {
-    width: 25%;
+    width: 50%;
+    margin-top: 30px;
 }
 
 .contact-details {
@@ -444,6 +445,17 @@ header {
 .fa-map-marker,
 .fa-phone {
     margin-right: 10px;
+    color: #04a4fa;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.map {
+    padding-bottom: 0;
+    padding-top: 10px;
 }
 
 /*----------------------------------------*/
@@ -536,6 +548,12 @@ footer {
     color: #04a4fa;
 }
 
+.project-github:hover,
+.project-github:active,
+.project-link:hover,
+.project-link:active {
+    color: #fff
+}
 
 /*----------------------------------------*/
 

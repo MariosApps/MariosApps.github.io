@@ -50,7 +50,7 @@ $(document).ready(function () {
     }, {
         offset: '70%'
     });
-    
+
     $('#js-wp-2').waypoint(function () {
         $('#js-wp-2').addClass('animated fadeInRight');
     }, {
@@ -76,8 +76,8 @@ $(document).ready(function () {
         if ($(window).width() < 768) {
             nav.slideToggle(200);
         }
-        
-        
+
+
         if (icon.hasClass('ion-navicon-round')) {
             icon.addClass('ion-close-round');
             icon.removeClass('ion-navicon-round');
@@ -102,4 +102,14 @@ $(document).ready(function () {
 
     });
 
+    var map = new GMaps({
+        div: '#map',
+        lat: 50.061898,
+        lng: 19.937512
+    });
+
+    map.addMarker({
+        lat: 50.061898,
+        lng: 19.937512,
+    });
 });

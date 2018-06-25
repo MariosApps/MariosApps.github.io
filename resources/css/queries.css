@@ -58,6 +58,10 @@
         font-size: 190%;
     }
 
+    .contact-details {
+        font-size: 100%;
+    }
+
 }
 
 
@@ -202,6 +206,11 @@
     .contact-details {
         margin-top: 30px;
     }
+
+    .qr-code-image {
+        width: 30%;
+        margin-top: 20px;
+    }
 }
 
 
@@ -218,10 +227,13 @@
     h3 {
         font-size: 100%;
     }
-}
 
-@media only screen and (max-width: 320px) {
-    .contact-details {
-        font-size: 80%;
+    .qr-code-image {
+        width: 40%;
     }
-}
+
+    @media only screen and (max-width: 320px) {
+        .contact-details {
+            font-size: 80%;
+        }
+    }

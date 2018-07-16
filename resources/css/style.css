@@ -350,6 +350,10 @@ header {
     line-height: 150%;
 }
 
+.soft-skills-box h3 {
+    text-transform: none;
+}
+
 
 .soft-skills {
     margin-bottom: 30px;
@@ -423,20 +427,20 @@ header {
     outline: none;
 }
 
-.qr-code {
+.my-face {
     text-align: center;
 }
 
-.qr-code-image {
+.my-face-image {
     width: 50%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .contact-details {
     font-size: 120%;
     word-spacing: 2px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 70px;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }

@@ -63,6 +63,12 @@ $(document).ready(function () {
         offset: '70%'
     });
 
+    $('#js-wp-4').waypoint(function () {
+        $('#js-wp-4').addClass('animated fadeInUp');
+    }, {
+        offset: '70%'
+    });
+
 
     $('.js-nav-icon, .js-main-nav a, .black-logo').click(function (element) {
         var nav = $('.js-main-nav');
@@ -104,12 +110,13 @@ $(document).ready(function () {
 
     var map = new GMaps({
         div: '#map',
-        lat: 50.061898,
-        lng: 19.937512
+        lat: 50.0298507,
+        lng: 19.9497071,
+        zoom: 12
     });
 
     map.addMarker({
-        lat: 50.061898,
-        lng: 19.937512,
+        lat: 50.0098507,
+        lng: 19.9497071
     });
 });

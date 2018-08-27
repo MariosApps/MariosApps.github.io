@@ -447,7 +447,8 @@ header {
 
 .fa-envelope,
 .fa-map-marker,
-.fa-phone {
+.fa-phone,
+.fa-download {
     margin-right: 10px;
     color: #04a4fa;
 }
@@ -567,7 +568,8 @@ footer {
 
 #js-wp-1,
 #js-wp-2,
-#js-wp-3 {
+#js-wp-3,
+#js-wp-4 {
     opacity: 0;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
@@ -575,6 +577,7 @@ footer {
 
 #js-wp-1.animated,
 #js-wp-2.animated,
-#js-wp-3.animated {
+#js-wp-3.animated,
+#js-wp-4.animated {
     opacity: 1;
 }
